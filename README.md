@@ -113,6 +113,7 @@ flask run
 The web application has started and here you can get the URI to test.
 
 ![2020-03-18 01_56_15-Windows PowerShell](https://user-images.githubusercontent.com/57285863/76914861-cadee600-68bb-11ea-9aec-081e507f53f4.png)
+
 Accessing this URI on the web browser, you should get the output of the appliction.
 
 ![2020-03-18 01_57_54-127 0 0 1_5000](https://user-images.githubusercontent.com/57285863/76914915-e8ac4b00-68bb-11ea-9a0d-22a01b3d53e9.png)
