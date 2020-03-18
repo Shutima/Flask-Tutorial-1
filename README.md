@@ -24,6 +24,7 @@ pipenv install --python 3.8.1
 This will create the virtual environment folder in `C:\Users\[username]\.virtualenvs`
 
 ![2020-03-18 00_59_35- virtualenvs](https://user-images.githubusercontent.com/57285863/76912322-c31b4380-68b3-11ea-83d9-747dcbd7e13a.png)
+
 Activate the project's virtualenv, run
 ```
 pipenv shell
@@ -70,9 +71,11 @@ Navigate into the `todo` folder created from above step. In here, create a blank
 ```
 pipenv --venv
 ```
+
 ![2020-03-18 01_25_36-● README md - Flask-Tutorial-1 - Visual Studio Code](https://user-images.githubusercontent.com/57285863/76913491-6ae64080-68b7-11ea-8c57-b023785a4bd2.png)
 
 Then you can set up that environment variable in your environment's `activate` script.
+
 ![2020-03-18 01_26_44-An introduction to the Flask Python web app framework _ Opensource com](https://user-images.githubusercontent.com/57285863/76913610-c57f9c80-68b7-11ea-974e-55b3aad4287c.png)
 
 In the `activate` script, add these lines at the bottom
@@ -98,6 +101,7 @@ def hello_world():
     return 'Hello, world!'
 ~~~~
 The code below takes `_name_` of the script file. The `app.route` decorates the first `view` function. Any view must be decorated by `app.route`. For this example code, when the app is executed and accessed at `http://domainname/`, you will receive `Hello, World!` as a respond.
+
 📌If you use PowerShell, please set up FLASK_APP environment variable as followed (as PowerShell managed environment variables differently)
 ```
 $env:FLASK_APP="C:\[path-to-flask-project-venv]\todo\app.py"
@@ -107,8 +111,10 @@ Start Flask by:
 flask run
 ```
 The web application has started and here you can get the URI to test.
+
 ![2020-03-18 01_56_15-Windows PowerShell](https://user-images.githubusercontent.com/57285863/76914861-cadee600-68bb-11ea-9aec-081e507f53f4.png)
 Accessing this URI on the web browser, you should get the output of the appliction.
+
 ![2020-03-18 01_57_54-127 0 0 1_5000](https://user-images.githubusercontent.com/57285863/76914915-e8ac4b00-68bb-11ea-9a0d-22a01b3d53e9.png)
 
 # Work in Progress
